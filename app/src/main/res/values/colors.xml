@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Used by themes.xml's windowBackground + splash screen background, before Compose (and
+         its ThemeMode override) is up. Kept in sync with ui/theme/Color.kt's Background tokens. -->
+    <color name="background_light">#FFFAFAFA</color>
+    <color name="background_dark">#FF121212</color>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Room DB (apptemplate.db + WAL/SHM/journal siblings) can hold cached private data — excluded
+     from cloud backup and device transfer on API 31+. The auth token is separately safe
+     regardless, since it's Keystore-backed EncryptedSharedPreferences, and Keystore keys never
+     travel with either mechanism. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="database" path="apptemplate.db"/>
+        <exclude domain="database" path="apptemplate.db-wal"/>
+        <exclude domain="database" path="apptemplate.db-shm"/>
+        <exclude domain="database" path="apptemplate.db-journal"/>
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="database" path="apptemplate.db"/>
+        <exclude domain="database" path="apptemplate.db-wal"/>
+        <exclude domain="database" path="apptemplate.db-shm"/>
+        <exclude domain="database" path="apptemplate.db-journal"/>
+    </device-transfer>
+</data-extraction-rules>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AppTemplate" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/background_light</item>
+    </style>
+
+    <!-- Controls the OS-mandated Android 12+ Starting Window (core-splashscreen). Icon is
+         transparent — we want just the brand background, so the handoff to SplashScreen.kt's own
+         Lottie animation reads as one continuous screen rather than "icon, then a different
+         animated screen". postSplashScreenTheme is swapped back in automatically once
+         installSplashScreen() sees the first frame drawn. -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background_light</item>
+        <item name="windowSplashScreenAnimatedIcon">@android:color/transparent</item>
+        <item name="postSplashScreenTheme">@style/Theme.AppTemplate</item>
+    </style>
+</resources>

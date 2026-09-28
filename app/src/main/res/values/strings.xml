@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppTemplate</string>
+
+    <string name="generic_close">Close</string>
+    <string name="generic_character_limit">Character limit: %1$d</string>
+
+    <string name="welcome_title">Welcome to AppTemplate</string>
+    <string name="welcome_desc">A starting point for your next app — auth, networking, storage and a design system, ready to build on.</string>
+    <string name="welcome_register">Register</string>
+    <string name="welcome_login">Log in</string>
+    <string name="welcome_privacy">By continuing, you agree to our Terms of Service and Privacy Policy</string>
+
+    <string name="login_title">Welcome back!</string>
+    <string name="login_subtitle">Log in to continue</string>
+    <string name="login_email">Email / Username</string>
+    <string name="login_email_placeholder">you@example.com</string>
+    <string name="login_password">Password</string>
+    <string name="login_forgot_password">Forgot your password? Reset here</string>
+    <string name="login_submit">Log In</string>
+
+    <string name="register_title">Create your account</string>
+    <string name="register_subtitle">Sign up to get started</string>
+    <string name="register_first_name">First Name</string>
+    <string name="register_last_name">Last Name</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Password</string>
+    <string name="register_password_confirm">Confirm password</string>
+    <string name="register_age_confirm">I confirm I\'m 13 years of age or older</string>
+    <string name="register_submit">Sign Up</string>
+    <string name="register_login_instead">Already have an account? Log In</string>
+
+    <string name="forgot_subtitle">Enter your email and we\'ll send instructions to reset it.</string>
+    <string name="forgot_reset">Send Reset Link</string>
+    <string name="forgot_open_email">Open Email</string>
+
+    <string name="profile_image_upload_continue">Upload &amp; Continue</string>
+    <string name="profile_image_skip">Skip</string>
+    <string name="profile_image_choose_photo">Choose Photo</string>
+    <string name="profile_image_photo_library">Photo Library</string>
+    <string name="profile_image_take_photo">Take Photo</string>
+
+    <string name="banned_title">Account Suspended</string>
+    <string name="banned_message">Your account has been suspended. If you think this is a mistake, submit an appeal below.</string>
+    <string name="banned_appeal_label">Your appeal</string>
+    <string name="banned_appeal_hint">Explain why your account should be reinstated</string>
+    <string name="banned_appeal_submit">Submit Appeal</string>
+    <string name="banned_appeal_error">Something went wrong submitting your appeal. Please try again.</string>
+    <string name="banned_appeal_success_title">Appeal Submitted</string>
+    <string name="banned_appeal_success_message">We\'ve received your appeal and will be in touch.</string>
+    <string name="banned_logout">Log Out</string>
+
+    <string name="home_title">Home</string>
+    <string name="home_open_detail">Open Detail</string>
+    <string name="activity_title">Activity</string>
+    <string name="activity_empty">Nothing here yet.</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_logout">Log Out</string>
+
+    <string name="notification_channel_default_name">AppTemplate</string>
+    <string name="notification_channel_default_description">App notifications</string>
+
+    <string name="biometric_prompt_title">Unlock AppTemplate</string>
+    <string name="biometric_lock_tap_to_retry">Tap to try again</string>
+    <string name="biometric_lock_log_out">Log Out</string>
+</resources>
